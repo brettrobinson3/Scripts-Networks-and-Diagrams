@@ -99,4 +99,3 @@ We copy this to our virtual machines.
 This is specified in the configuration file.
 -Which URL do you navigate to in order to check that the ELK server is running?
 You navigate to the public IP address of your elk server using the port 5601
-<ELK-IP-ADDRESS>:5601
