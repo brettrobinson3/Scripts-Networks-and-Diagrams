@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -d ~/research ]
+then
+echo The /research folder exists!
+fi
+
+if [ ! -d `~/research ]
+then
+mkdir ~/research
+fi

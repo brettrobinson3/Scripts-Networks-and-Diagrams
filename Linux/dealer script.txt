@@ -1,0 +1,4 @@
+#! /bin/bash/
+awk '{print $1, $2, $5, $6}' 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule | grep -e 02 -e 08 | grep PM
+awk '{print $1, $2, $5, $6}' 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule | grep -e 05 -e 08 | grep AM
+awk '{print $1, $2, $5, $6}' 0310_Dealer_schedule 0312_Dealer_schedule | grep 11 | grep PM
